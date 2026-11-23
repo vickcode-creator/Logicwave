@@ -43,8 +43,8 @@ body {
 .nav-bg .container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 25px;
+    align-items: start;
+    gap: 15px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
