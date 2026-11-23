@@ -179,9 +179,14 @@
             <img src="images/ppc.jpeg" alt="Milk ATM machine" class="card-img">
 
             <!-- Videos -->
-            <video class="card-img" controls>
+            <!-- <video class="card-img" controls>
                 <source src="images\ppva.mp4" type="video/mp4">
-            </video>
+            </video> -->
+
+            <video class="card-img" controls preload="metadata"
+       onclick="this.requestFullscreen()">
+    <source src="images/ppva.mp4" type="video/mp4">
+</video>
 
         </div>
 
